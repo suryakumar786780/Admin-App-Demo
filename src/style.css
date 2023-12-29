@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.min-vh-90 {
+    min-height: 90vh !important;
+}
+
+.w-60 {
+    width: 60%;
+    margin: auto;
+}
+
+.w-75 {
+    width: 75%;
+    margin: auto;
+}
+
+.cardButton {
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.editBtn {
+    background-color: rgb(79, 185, 227);
+}
+
+.deleteBtn {
+    background-color: rgb(179, 9, 9);
+}
+
+.pre-content {
+    width: 30rem;
+    height: 17rem;
+}
+
+.previewImg img {
+    width: 17rem;
+    height: 17rem;
+}
+
+/* card image change */
+.job-card {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiPaper-root {
+    height: 96%;
+}
+
+/* Media query */
+@media only screen and (max-width: 700px) {
+    .pre-content {
+        padding: 1rem;
+        width: auto;
+    }
+
+    .previewImg {
+        display: flex;
+        justify-content: center;
+        width: 100% !important;
+    }
+
+    .previewImg img {
+        text-align: center;
+        width: 10rem;
+        height: 10rem;
+    }
+}
